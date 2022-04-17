@@ -29,3 +29,35 @@
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
 }
+
+.experience__details {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience__icon {
+  margin-top: 6px;
+  color: red;
+}
+
+@media screen and (max-width: 1024px) {
+  .experience__container {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__container > div {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .experience__content {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .experience__container {
+    margin-right: 1rem;
+    width: 100%;
+  }
+}

@@ -13,33 +13,34 @@ const Experience = () => {
           <h3>Frontend Skills</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsCheckCircle/>
+              <BsCheckCircle className='experience__icon' />
               <div><h4>HTML5</h4>
               <small>Experienced</small></div>
               
               </article>
               <article className="experience__details">
-              <BsCheckCircle/>
+              <BsCheckCircle className='experience__icon'/>
               <div><h4>CSS3</h4>
               <small>Experienced</small></div>
               
               </article>
               <article className="experience__details">
-              <BsCheckCircle/>
+              <BsCheckCircle className='experience__icon'/>
               <div><h4>JavaScript</h4>
               <small>Experienced</small></div>
               
               </article>
               <article className="experience__details">
-              <BsCheckCircle/>
+              <BsCheckCircle className='experience__icon'/>
               <div><h4>Tailwind CSS</h4>
               <small>Experienced</small></div>
               
               </article>
               <article className="experience__details">
-              <BsCheckCircle/>
-              <h4>React</h4>
-              <small>Experienced</small>
+              <BsCheckCircle className='experience__icon'/>
+              <div><h4>React</h4>
+              <small>Experienced</small></div>
+              
               </article>
               
           
@@ -54,19 +55,22 @@ const Experience = () => {
             <div className="experience__content">
             
           <article className="experience__details">
-              <BsCheckCircle/>
-              <h4>Python</h4>
-              <small>Experienced</small>
+              <BsCheckCircle className='experience__icon'/>
+              <div><h4>Python</h4>
+              <small>Experienced</small></div>
+              
               </article>
               <article className="experience__details">
-              <BsCheckCircle/>
-              <h4>Pandas/Numpy</h4>
-              <small>Experienced</small>
+              <BsCheckCircle className='experience__icon'/>
+              <div><h4>Pandas/Numpy</h4>
+              <small>Experienced</small></div>
+              
               </article>
               <article className="experience__details">
-              <BsCheckCircle/>
-              <h4>SQL/NoSQL</h4>
-              <small>Experienced</small>
+              <BsCheckCircle className='experience__icon'/>
+              <div><h4>SQL/NoSQL</h4>
+              <small>Experienced</small></div>
+              
               </article>
         
               </div>
