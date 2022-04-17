@@ -1,0 +1,29 @@
+.nav {
+}
+
+.nav__position {
+  background: #001122;
+  width: max-content;
+  margin: 1rem 1rem;
+  display: block;
+  position: fixed;
+  padding: 0.7rem 1rem;
+  display: flex;
+  gap: 3rem;
+  border-radius: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--color-white);
+  font-size: 1.2rem;
+}
+nav a.active {
+  color: red;
+}
