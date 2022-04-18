@@ -1,6 +1,8 @@
 import React from 'react'
 import './project.css'
 import contact from '../../assets/contact.PNG'
+import note from '../../assets/note.PNG'
+import portfolio from '../../assets/portfolio.PNG'
 
 const Project = () => {
   return (
@@ -12,24 +14,27 @@ const Project = () => {
         <div className="portfolio__item-image">
           <img src={contact} alt="" />
           </div>
-        <h3>Portfolio item title</h3>
+        <h3>Contact Book</h3>
+        <p>Built with HTML, Bootstrap CSS and JavaScript</p>
+        <a href="https://github.com/onassis28/contact-app" className='btn' target='_blank'>Github</a>
+
+      </article>
+      <article className='portfolio__item'>
+        <div className="portfolio__item-image">
+          <img src={portfolio} alt="" />
+          </div>
+        <h3>Portfolio Website</h3>
+        <p>Built with React and CSS</p>
         <a href="https://github.com" className='btn' target='_blank'>Github</a>
 
       </article>
       <article className='portfolio__item'>
         <div className="portfolio__item-image">
-          <img src={contact} alt="" />
+          <img src={note} alt="" />
           </div>
-        <h3>Portfolio item title</h3>
-        <a href="https://github.com" className='btn' target='_blank'>Github</a>
-
-      </article>
-      <article className='portfolio__item'>
-        <div className="portfolio__item-image">
-          <img src={contact} alt="" />
-          </div>
-        <h3>Portfolio item title</h3>
-        <a href="https://github.com" className='btn' target='_blank'>Github</a>
+        <h3>Note Takking App</h3>
+        <p>Built with HTML, CSS AND JavaScript</p>
+        <a href="https://github.com/onassis28/notetaking-app" className='btn' target='_blank'>Github</a>
 
       </article>
       

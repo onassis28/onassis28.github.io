@@ -43,7 +43,13 @@
 .header__social::after {
   content: "";
   width: 1px;
-  height: 2rem;
+  height: 5rem;
+  background: var(--color-white);
+}
+.header__social::before {
+  content: "";
+  width: 1px;
+  height: 5rem;
   background: var(--color-white);
 }
 

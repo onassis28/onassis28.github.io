@@ -1,0 +1,20 @@
+footer {
+  background: var(--color-primary);
+  color: var(--color-light);
+  font-size: 0.9rem;
+}
+
+.container__footer {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.footer__copyright {
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer a {
+  color: var(--color-light);
+}
