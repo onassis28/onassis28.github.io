@@ -43,3 +43,8 @@ textarea {
 .btn__contact:hover {
   background: var(--color-primary);
 }
+@media screen and (max-width: 600px) {
+  input{
+    width: 80vw;
+  }
+}

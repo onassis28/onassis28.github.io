@@ -32,7 +32,7 @@ const Project = () => {
         <div className="portfolio__item-image">
           <img src={note} alt="" />
           </div>
-        <h3>Note Takking App</h3>
+        <h3>Note Taking App</h3>
         <p>Built with HTML, CSS AND JavaScript</p>
         <a href="https://github.com/onassis28/notetaking-app" className='btn' target='_blank'>Github</a>
 

@@ -8,7 +8,7 @@ const Experience = () => {
       <h5>The Skillset i bring along</h5>
       <h2>My Experience</h2>
 
-      <div className="container experience__container">
+      <div className="container experience__container" id='ex__cont'>
         <div className="experience__skills">
           <h3>Frontend Skills</h3>
           <div className="experience__content">

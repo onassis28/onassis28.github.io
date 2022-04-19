@@ -27,3 +27,12 @@ nav a {
 nav a.active {
   color: red;
 }
+@media screen and (max-width: 600px){
+ 
+
+    
+  
+.nav__position{
+  margin: 0 auto;
+}
+}

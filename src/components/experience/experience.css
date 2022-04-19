@@ -7,10 +7,14 @@
 .experience__container > div {
   background: var(--color-primary);
   padding: 2.4rem 5rem;
-  border-radius: 2rem;
+  border-radius: 3rem;
   border: 1px solid transparent;
   transition: var(--transition);
+  margin: 0 auto;
+  overflow: hidden;
+
 }
+
 
 .experience__container > div:hover {
   background: transparent;
@@ -56,8 +60,5 @@
 }
 
 @media screen and (max-width: 600px) {
-  .experience__container {
-    margin-right: 1rem;
-    width: 100%;
-  }
+
 }
