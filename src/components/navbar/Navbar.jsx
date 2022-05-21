@@ -6,6 +6,7 @@ import {BsBook} from 'react-icons/bs'
 import {AiOutlineProject} from 'react-icons/ai'
 import {IoIosContact} from 'react-icons/io'
 import {useState} from 'react'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [active, setActive]= useState('#home')
@@ -13,7 +14,7 @@ const Navbar = () => {
     <nav className='nav'>
       <div className='nav__position'>
 
-<a href="#home"onClick={() => setActive('#home')} className={active ==='#home'? 'active': ''}><AiOutlineHome/> </a>
+<Link to='/' href="#home"onClick={() => setActive('#home')} className={active ==='#home'? 'active': ''}><AiOutlineHome/> </Link>
 <a href="#about" onClick={() => setActive('#about')}className={active ==='#about'? 'active': ''} ><AiOutlineUser/></a>
 <a href="#experience"onClick={() => setActive('#experience')} className={active ==='#experience'? 'active': ''}><BsBook/></a>
 <a href="#project"onClick={() => setActive('#project')} className={active ==='#project'? 'active': ''}><AiOutlineProject/></a>

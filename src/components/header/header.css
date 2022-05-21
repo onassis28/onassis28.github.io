@@ -75,6 +75,12 @@
 }
 .header__social a {
   font-size: 5rem;
+  animation-name: turn;
+  animation-duration: 8s;
+}
+@keyframes turn {
+  from { transform: rotate(50deg);}
+  to{ transform: rotate(00deg);}
 }
 /* media queries */
 
