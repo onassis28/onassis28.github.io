@@ -1,5 +1,8 @@
 .nav {
+  position: relative;
 }
+
+
 
 .nav__position {
   background: #001122;
@@ -14,6 +17,7 @@
   left: 50%;
   transform: translateX(-50%);
   bottom: 1rem;
+  z-index: 1;
   backdrop-filter: blur(15px);
 }
 

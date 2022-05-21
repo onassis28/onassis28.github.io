@@ -6,6 +6,8 @@ import Aboutpage from "./components/pages/Aboutpage";
 import './index.css'
 import Navbar from "./components/navbar/Navbar";
 import Footer from "./components/footer/Footer";
+import Experiencepage from "./components/pages/Experiencepage";
+import Projectpage from "./components/pages/Projectpage";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
@@ -16,6 +18,8 @@ root.render(
   <Routes>
     <Route path='/' element={<App />}/>
     <Route path='about' element={<Aboutpage/>}/>
+    <Route path='experience' element={<Experiencepage/>}/>
+    <Route path='project' element={<Projectpage/>}/>
     </Routes>
     <Footer/>
   </BrowserRouter>

@@ -14,10 +14,10 @@ const Navbar = () => {
     <nav className='nav'>
       <div className='nav__position'>
 
-<Link to='/' href="#home"onClick={() => setActive('#home')} className={active ==='#home'? 'active': ''}><AiOutlineHome/> </Link>
-<Link to='about' href="#about" onClick={() => setActive('#about')}className={active ==='#about'? 'active': ''} ><AiOutlineUser/></Link>
-<a href="#experience"onClick={() => setActive('#experience')} className={active ==='#experience'? 'active': ''}><BsBook/></a>
-<a href="#project"onClick={() => setActive('#project')} className={active ==='#project'? 'active': ''}><AiOutlineProject/></a>
+<Link to='/' onClick={() => setActive('#home')} className={active ==='#home'? 'active': ''}><AiOutlineHome/> </Link>
+<Link to='about'onClick={() => setActive('#about')}className={active ==='#about'? 'active': ''} ><AiOutlineUser/></Link>
+<Link to='experience'onClick={() => setActive('#experience')} className={active ==='#experience'? 'active': ''}><BsBook/></Link>
+<Link to='project' onClick={() => setActive('#project')} className={active ==='#project'? 'active': ''}><AiOutlineProject/></Link>
 <a href="#contact"onClick={() => setActive('#contact')} className={active ==='#contact'? 'active': ''}><IoIosContact/></a>
 </div>
 
