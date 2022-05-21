@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='nav__position'>
 
 <Link to='/' href="#home"onClick={() => setActive('#home')} className={active ==='#home'? 'active': ''}><AiOutlineHome/> </Link>
-<a href="#about" onClick={() => setActive('#about')}className={active ==='#about'? 'active': ''} ><AiOutlineUser/></a>
+<Link to='about' href="#about" onClick={() => setActive('#about')}className={active ==='#about'? 'active': ''} ><AiOutlineUser/></Link>
 <a href="#experience"onClick={() => setActive('#experience')} className={active ==='#experience'? 'active': ''}><BsBook/></a>
 <a href="#project"onClick={() => setActive('#project')} className={active ==='#project'? 'active': ''}><AiOutlineProject/></a>
 <a href="#contact"onClick={() => setActive('#contact')} className={active ==='#contact'? 'active': ''}><IoIosContact/></a>
