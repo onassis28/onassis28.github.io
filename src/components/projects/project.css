@@ -30,9 +30,15 @@ article p {
   padding-bottom: 0.2rem;
 }
 
+
+
 @media screen and (max-width: 1024px) {
   .portfolio__container {
     grid-template-columns: 1fr;
+  }
+  .project{
+    height: max-content;
+    
   }
 }
 
@@ -40,4 +46,8 @@ article p {
   .portfolio__container {
     grid-template-columns: 1fr;
   }
+  .project{
+    height: max-content;
+    
+}
 }

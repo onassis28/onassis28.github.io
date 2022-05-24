@@ -18,7 +18,7 @@ const Navbar = () => {
 <Link to='about'onClick={() => setActive('#about')}className={active ==='#about'? 'active': ''} ><AiOutlineUser/></Link>
 <Link to='experience'onClick={() => setActive('#experience')} className={active ==='#experience'? 'active': ''}><BsBook/></Link>
 <Link to='project' onClick={() => setActive('#project')} className={active ==='#project'? 'active': ''}><AiOutlineProject/></Link>
-<a href="#contact"onClick={() => setActive('#contact')} className={active ==='#contact'? 'active': ''}><IoIosContact/></a>
+<Link to='contact' onClick={() => setActive('#contact')} className={active ==='#contact'? 'active': ''}><IoIosContact/></Link>
 </div>
 
 

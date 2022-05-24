@@ -6,7 +6,7 @@ import portfolio from '../../assets/portfolio.PNG'
 
 const Project = () => {
   return (
-    <section id='project'>
+    <section className='project' >
     <h5>My Recent Works?</h5>
     <h2>Portfolio</h2>
     <div className="container portfolio__container">
@@ -32,9 +32,9 @@ const Project = () => {
         <div className="portfolio__item-image">
           <img src={note} alt="" />
           </div>
-        <h3>Note Taking App</h3>
-        <p>Built with HTML, CSS AND JavaScript</p>
-        <a href="https://github.com/onassis28/notetaking-app" className='btn' target='_blank'>Github</a>
+        <h3>Movie App</h3>
+        <p>Built with React and CSS</p>
+        <a href="https://github.com/onassis28/movie-search" className='btn' target='_blank'>Github</a>
 
       </article>
       

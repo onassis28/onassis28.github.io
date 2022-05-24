@@ -19,6 +19,9 @@ footer a {
   color: var(--color-light);
 }
 
+footer{
+  margin-top: 1rem;
+}
 @media screen and (max-width: 600px) {
   footer{
     font: size 1rem; ;
