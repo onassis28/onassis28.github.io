@@ -15,7 +15,6 @@ const Header = () => {
 					<h1>Onassis Sowah Anyetei</h1>
 					<h5 className='header__h5'>Software Engineer </h5>
 					<Cta />
-
 					<Headersocial />
 				</div>
 			</header>

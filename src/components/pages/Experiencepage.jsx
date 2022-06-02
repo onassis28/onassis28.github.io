@@ -1,15 +1,12 @@
-import React from 'react'
-import Experience from '../experience/Experience'
+import React from 'react';
+import Experience from '../experience/Experience';
 
 const Experiencepage = () => {
-  return (
-    <>
-    
-    <Experience/>
+	return (
+		<>
+			<Experience />
+		</>
+	);
+};
 
-    
-    </>
-  )
-}
-
-export default Experiencepage
+export default Experiencepage;
