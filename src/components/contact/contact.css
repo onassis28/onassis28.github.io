@@ -47,4 +47,7 @@ textarea {
   input{
     width: 80vw;
   }
+  #contact{
+    height: 100vh;
+  }
 }
